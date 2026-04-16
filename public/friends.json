@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "david.kim@email.com",
+    "days_since_contact": 20,
+    "status": "almost due",
+    "tags": ["work"],
+    "bio": "Worked together at a startup. Great product thinker.",
+    "goal": 30,
+    "next_due_date": "2026-05-01"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "emma.wilson@email.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "Cousin who lives abroad. We catch up over long calls.",
+    "goal": 30,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/65.jpg",
+    "email": "lisa.n@email.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["work"],
+    "bio": "Met during a UX conference. Loves design systems.",
+    "goal": 21,
+    "next_due_date": "2026-04-02"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "james.w@email.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["hobby", "travel"],
+    "bio": "Travel buddy from Europe trips.",
+    "goal": 45,
+    "next_due_date": "2026-04-03"
+  },
+  {
+    "id": 5,
+    "name": "Sophia Carter",
+    "picture": "https://randomuser.me/api/portraits/women/22.jpg",
+    "email": "sophia@email.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["friend"],
+    "bio": "Gym partner and accountability buddy.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 6,
+    "name": "Michael Brown",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "michael@email.com",
+    "days_since_contact": 28,
+    "status": "almost due",
+    "tags": ["college"],
+    "bio": "Roommate from university days.",
+    "goal": 30,
+    "next_due_date": "2026-04-20"
+  }
+]
