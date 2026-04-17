@@ -19,8 +19,10 @@ const bgMap = {
 const Timeline = () => {
   const {timeline = []} = useOutletContext();
 
+  
   const [filter, setFilter] = useState("All");
 
+  
   const filteredTimeline =
     filter === "All"
       ? timeline
@@ -31,6 +33,7 @@ const Timeline = () => {
       <div className="bg-gray-50 p-5 rounded-xl shadow">
         <h3 className="text-3xl md:text-5xl font-bold mb-6">Timeline</h3>
 
+        
         <div className="mb-6">
           <select
             value={filter}
@@ -44,6 +47,7 @@ const Timeline = () => {
           </select>
         </div>
 
+        
         <div className="space-y-3">
           {filteredTimeline.length === 0 ? (
             <p className="text-lg text-gray-400 p-10 text-center">
@@ -62,6 +66,7 @@ const Timeline = () => {
                   {iconMap[item.type]}
                 </div>
 
+                
                 <div>
                   <p className="text-base md:text-lg font-semibold text-emerald-900">
                     {item.type}{" "}

@@ -12,16 +12,16 @@ const FriendCard = ({friend}) => {
   return (
     <div
       onClick={() => navigate(`/friend/${friend.id}`)}
-      className="p-6 rounded-xl shadow-sm cursor-pointer bg-white text-center hover:shadow-md transition"
+      className="p-6 rounded-xl shadow-sm cursor-pointer bg-white text-center hover:shadow-xl hover:-translate-y-1 transition duration-350 "
     >
-    
+      
       <img
         src={friend.picture}
         alt={friend.name}
         className="w-20 h-20 rounded-full mx-auto object-cover"
       />
 
-     
+      
       <h2 className="mt-3 text-xl font-semibold text-gray-700">
         {friend.name}
       </h2>
@@ -31,7 +31,7 @@ const FriendCard = ({friend}) => {
         {friend.days_since_contact}d ago
       </p>
 
-     
+      
       <div className="flex justify-center gap-2 mt-2 flex-wrap">
         {friend.tags.map((tag, i) => (
           <span

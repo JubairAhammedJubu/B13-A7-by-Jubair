@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="mx-auto w-full bg-[#244C3E] text-white px-4 sm:px-6 lg:px-0 ">
       <div className="max-w-277.5 mx-auto pt-12 sm:pt-20 pb-8">
         <div className="mx-auto text-center">
-        
+          
           <img
             src={logoXL}
             alt="KeenKeeper Logo"
@@ -20,7 +20,7 @@ const Footer = () => {
             nurture the relationships that matter most.
           </p>
 
-       
+          
           <div className="mt-6">
             <h3 className="text-lg sm:text-xl font-medium leading-7 mb-4">
               Social Links
@@ -42,12 +42,12 @@ const Footer = () => {
           </div>
         </div>
 
-        
+       
         <div className="py-7 sm:py-10">
           <hr className="border-white/7" />
         </div>
 
-        
+       
         <div className="mx-auto flex flex-col md:flex-row items-center justify-between text-xs sm:text-sm text-white/40 text-center md:text-left">
           <p>&copy; 2026 KeenKeeper. All rights reserved.</p>
 

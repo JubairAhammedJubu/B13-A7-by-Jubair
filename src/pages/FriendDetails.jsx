@@ -63,9 +63,9 @@ const friend = data.find(item => item.id == id);
   return (
     <div className="bg-gray-50">
       <div className="max-w-277.5 mx-auto grid md:grid-cols-3 gap-6 py-7 lg:py-20 px-4 sm:px-6 lg:px-0 ">
-        
+       
         <div className="md:col-span-1 space-y-4">
-         
+          
           <div className="bg-white p-10 rounded-xl shadow">
             <img
               src={picture}
@@ -99,7 +99,7 @@ const friend = data.find(item => item.id == id);
             </p>
           </div>
 
-          
+         
           <div className=" space-y-3">
             <button
               onClick={() => toast.success("Snoozed 2 weeks")}
@@ -127,7 +127,7 @@ const friend = data.find(item => item.id == id);
 
         
         <div className="md:col-span-2 grid grid-rows-3 gap-4">
-          
+         
           <div className="rounded-xl grid grid-cols-3 gap-4 ">
             <div className="bg-white shadow rounded-lg flex flex-col items-center justify-center text-center p-4">
               <p className="text-2xl md:text-3xl font-semibold">
