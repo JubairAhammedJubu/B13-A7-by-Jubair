@@ -11,10 +11,10 @@ const Banner = ({friends}) => {
 
   return (
     <div className="bg-gray-50">
-      {/* OUTER WRAPPER */}
+     
       <div className="mx-auto px-4 sm:px-6 lg:px-0 ">
         <div className="max-w-277.5 mx-auto pt-12 sm:pt-16 lg:pt-20">
-          {/* HERO */}
+         
           <div className="text-center">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
               Friends to keep close in your life
@@ -33,7 +33,6 @@ const Banner = ({friends}) => {
             </div>
           </div>
 
-          {/* STATS */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             <div className="bg-white rounded-xl shadow-sm p-6 sm:p-8 text-center">
               <p className="text-emerald-900 text-3xl sm:text-4xl font-bold">
@@ -72,7 +71,6 @@ const Banner = ({friends}) => {
             </div>
           </div>
 
-          {/* DIVIDER */}
           <div className="my-8 sm:my-10">
             <hr className="border-gray-200 border" />
           </div>
