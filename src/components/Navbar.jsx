@@ -13,12 +13,12 @@ const Navbar = () => {
   return (
     <div className="navbar py-3 bg-base-100 px-4 md:px-6 lg:px-0 shadow-sm">
       <div className="w-full max-w-360 mx-auto flex justify-between items-center">
-        {/* Logo */}
+      
         <div className="navbar-start  ">
           <img src={logo} alt="KeenKeeper Logo" className="object-contain" />
         </div>
 
-        {/* Desktop Menu */}
+        
         <div className="navbar-center hidden lg:flex">
           <div className="flex items-center">
             <NavLink to="/" className={linkClass}>
@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        
         <div className="navbar-end lg:hidden">
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost p-0">
