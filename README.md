@@ -1,16 +1,62 @@
-# React + Vite
+# KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+KeenKeeper is a responsive web application designed to help users manage and maintain friendships. The app allows users to view friend profiles, track interactions, log communication activities, and analyze relationship data through a structured and user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js — Frontend development
+* React Router DOM — Routing and navigation
+* Tailwind CSS — Styling and responsiveness
+* Component Library (DaisyUI / ShadCN) — UI components
+* Recharts — Data visualization (charts)
+* React Toastify / Sonner — Toast notifications
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Features
+
+### 1. Friend Management System
+
+* Displays multiple friend profiles from a JSON file
+* Each friend card includes image, name, tags, and contact status
+* Status-based color coding (Overdue, Almost Due, On-Track)
+* Responsive grid layout across all devices
+
+### 2. Interaction Tracking System
+
+* Quick actions: Call, Text, Video
+* Automatically logs interactions into the Timeline page
+* Shows toast notifications when actions are triggered
+* Maintains a history of all interactions
+
+### 3. Friendship Analytics
+
+* Dedicated Stats page
+* Pie chart showing the distribution of Call, Text, and Video interactions
+* Helps users understand communication patterns
+
+---
+
+## Pages Included
+
+* Home Page (Banner and Friend List)
+* Friend Details Page
+* Timeline Page
+* Stats (Analytics) Page
+* 404 Not Found Page
+
+---
+
+## Additional Features
+
+* Loading animation while fetching friend data
+* Active navigation link highlighting
+* Fully responsive design (mobile, tablet, desktop)
+* Reload-safe routing after deployment
+
+---
+
