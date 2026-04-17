@@ -11,9 +11,10 @@ KeenKeeper is a responsive web application designed to help users manage and mai
 * React.js — Frontend development
 * React Router DOM — Routing and navigation
 * Tailwind CSS — Styling and responsiveness
-* Component Library (DaisyUI / ShadCN) — UI components
+* DaisyUI Component Library — UI components
 * Recharts — Data visualization (charts)
-* React Toastify / Sonner — Toast notifications
+* React Toastify — Toast notifications
+* React Icon & Lucide Reacts — For different icon
 
 ---
 
@@ -43,7 +44,7 @@ KeenKeeper is a responsive web application designed to help users manage and mai
 
 ## Pages Included
 
-* Home Page (Banner and Friend List)
+* Home Page (Navbar, Banner and Friend List with Footer)
 * Friend Details Page
 * Timeline Page
 * Stats (Analytics) Page
@@ -54,7 +55,7 @@ KeenKeeper is a responsive web application designed to help users manage and mai
 ## Additional Features
 
 * Loading animation while fetching friend data
-* Active navigation link highlighting
+* Sticky Navbar in mobile
 * Fully responsive design (mobile, tablet, desktop)
 * Reload-safe routing after deployment
 
